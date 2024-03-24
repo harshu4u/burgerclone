@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            overflow-x: hidden;
+    
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .allin{
+            padding-left: 300px;
+            width: 100%;
+            height: 100vh;
+        }
+    .container{
+    width: 100%;
+    height:100px;
+    margin-top: 25px;
+    }
+    .logo img{
+        width: 100px;
+        height: 100px;
+        margin-top: 25px;
+    }
+    .rig a{
+        color: rgb(128, 128, 206);
+    }
+    .logo{
+    float: left;
+    width:8%;
+    height: 120px;
+    margin-left: 65px;
+    
+    }
+    .rig img{
+        margin-top: 5px;
+        width: 40px;
+        height: 40px;
+    
+    }
+    .container2{
+    
+    width: 100%;
+    
+    }
+    .left{
+    width: 40%;
+    float: left;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    gap: 40px;
+    margin-left: 60px;
+    }
+    #lang{
+        height: 40px;
+        border: none;
+        font-size: 15px;
+    }
+    .left a{
+        text-decoration: none;
+        color: black;
+        margin-top: 10px;
+    }
+    
+    .right{
+    width: 40%;
+    float: right;
+    
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-evenly;
+    
+    }
+    .righ{
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    
+    }
+    .righ a{
+        text-decoration: none;
+        color: black;
+        margin: 0;
+    }
+    .righ img{
+        width: 40px;
+        height: 40px;
+    }
+    .para{
+    float: right;    
+    font-size: 17px;
+    margin-left: 7px;
+    margin-top: 15px;
+    
+    }
+    .para a{
+        text-decoration: none;
+    
+    
+    }
+    .para1{
+    float: right;    
+    font-size: 17px;
+    margin-left: 7px;
+    margin-top: 15px;
+    
+    }
+    .para1 a{
+        text-decoration: none;
+        color: black;
+    
+    
+    }
+    .ri button{
+        border: 1px solid rgb(201, 138, 11);
+        font-size: 15px;
+        border-radius: 5px;
+        width: 95px;
+        height: 40px;
+        background-color: rgb(210, 164, 70) ;
+    }
+    .ri{
+        margin-top: 7px;
+        border-radius: 5px;
+        width: 95px;
+        height: 40px;
+        background-color: rgb(210, 164, 70) ;
+        margin-right: 45px;
+    
+    }
+    .botto{
+        margin-left: px;
+    }
+    
+    
+    .bottom{
+    
+    float: right;
+    width: 85%;
+    height: 50px;
+    display:flex;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin: 20px;
+    
+    }
+    #menu{
+    margin-left: 30px;
+    border: none;
+    font-size: 15px;
+    }
+    .bott img{
+        width: 550px;
+        height: 250px;
+    }
+    .bott{
+        margin-left: 200px;
+        float: left;
+        display: flex;
+        margin-top: 15px;
+    
+    }
+    .bott2 img{
+        width: 550px;
+        height: 250px;
+    }
+    .bott2{
+        margin-left: 200px;
+        float: left;
+        display: flex;
+        margin-top: 15px;
+    
+    }
+    
+    .botto a{
+        margin: 25px;
+    
+     text-decoration: none;
+     color: black;
+    font-size: 17px;
+    }
+    .mid{
+        margin-top: 40px;
+        height: 50px;
+        width: 100%;
+        display: inline-block;
+        position: relative;
+    }
+    .mid h2{
+        font-size: 40px;
+        text-align:  center;
+
+    }
+    .mid p{
+        margin-top: 25px;
+        margin-left: 250px;
+        font-size: 15px;
+    }
+    .mid .par{
+        font-size: 10px;
+    }
+    .container3{
+        display: inline-block;
+        width: 100%;
+        height: 650px;
+    }
+    .bug img{
+        margin-top: 50px ;
+        margin-left: 150px;
+        width: 700px;
+        height: 400px;
+    }
+    .bug{
+        /* float: left; */
+display: inline-block;
+width: 50%;
+position: relative;
+    }
+    .head{
+        display: inline-block;
+position: absolute;
+top: 390px;
+right: 350PX;
+        width: 30%;
+
+        /* margin-top: -299px;
+        margin-left: 10px; */
+    }
+    .submit{
+        width: 200px;
+        height: 50px;
+        margin-top: 100px;
+        background-color: rgb(209, 158, 56);
+        border-radius: 10px;
+        border: 1px none rgb(203, 164, 92);
+    }
+    .head p{
+        margin-top: 15px;
+        width: 450px;
+        font-size: 24px;
+    }
+    .par2{
+        color: hwb(0 0% 100% / 0.83);
+
+        font-size: small;
+    }
+    .contanier5{
+        display: flex;
+        
+        justify-content: space-around;
+        position: relative;
+
+    }
+    .bug2{
+        margin-top: 50px;
+        width: 50%;
+        height: 450px;
+        position: absolute;
+        left: 150px;
+    }
+    .bug2-text h3{
+        font-size: 30px;
+        margin: 15px;
+    }
+    .bug2-text{
+        position: absolute;
+        right: 450px;
+        top: 50px;
+        width: 550px;
+        height: 200px;
+    }
+    .bug2-text p{
+        font-size: 24px;
+    }
+    .bug2 img{
+    position: absolute;
+    left: 0px;
+        width: 700px;
+        height: 450px;
+    }
+    .para3{
+        margin-top: 30px;
+    }
+    .bug2-text button{
+        width: 260px;
+        margin-top: 50px ;
+        border-radius: 10px;
+        height: 60px;
+        font-size: 19px;
+        background-color: #ffbc0d;
+
+    }
+    .container6{
+        width: 100%;
+        height: 600px;
+        position: relative;
+        bottom: -550px;
+        /* display: flex; */
+
+    }
+    .bug3-image{
+        /* background-color: aquamarine; */
+        display: flex;
+        width: 80%;
+        height: 600px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .bug3-image img{
+        position: absolute;
+        left: 150px;
+        width: 700px;
+        height: 350px;
+    }
+    .bug3-text{
+        position: absolute;
+        left: 910px;
+        top: 130px;
+        width: 550px;
+        height: 650px;
+    }
+.bug3-text h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.bug3-text p{
+    font-size: 19px;
+}
+.para4{
+    margin-top: 15px;
+}
+.bug3-text button{
+    width: 300px;
+    height: 60px;
+    margin-top: 80px;
+    background-color: #ffbc0d;
+    border-radius: 10px;
+    font-size: 21px;
+
+}
+.container7{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    position: relative;
+    top: 550px;
+}
+.bug4-image img{
+    position: absolute;
+        left: 150px;
+        width: 750px;
+        height: 450px;
+
+}
+.bug4-text{
+    width: 50%;
+    position: absolute;
+    left: 950px;
+    top: 60px;
+}
+.bug4-text h2{
+    font-size: 44px;
+}
+.bug4-text p{
+    margin-top: 20px;
+    width: 550px;
+    font-size: 19px;
+}
+.para5 p{
+    margin-top: 30px;
+
+}
+.para5 button{
+    margin-top: 50px;
+    width: 300px;
+    height: 60px;
+    background-color: #ffbc0d;
+    border-radius: 10px;
+    font-size: 24px;
+}
+.fingertips{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    position: relative;
+    top: 500px;
+    left: 300px;
+}
+.finger-tips-text h2{
+    font-size: 44px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.fingertips-image img{
+    width: 550px;
+    height: 400px;
+}
+.fingertips-icon{
+    margin-top: 25px;
+    display: flex;
+}
+.fingertips-icon img{
+
+
+    width: 200px;
+    height: 100px;
+}
+
+.deal{
+    display: flex;
+    position: relative;
+bottom: -2000px;
+    width: 100%;
+    height: 300px;
+}
+.deal-head h1{
+    font-size: 50px;
+    position: absolute;
+    left: 500px;
+
+}
+.deal-head p{
+    padding-left: 500px;
+    position: absolute;
+    top: 80px;
+}
+.footer{
+    position: absolute;
+    bottom: -2500px;
+    width: 100%;
+    left: 150px;
+    line-height: 1.6;
+    display: flex;
+    background-color: whitesmoke;
+
+    }
+.box ul{
+    margin-right: 250px;
+}
+.box ul li{
+    list-style: none;
+}
+
+.box2 ul{
+    margin-right: 250px;
+}
+.box2 ul li{
+    list-style: none;
+}
+
+.box3 ul{
+    margin-right: 250px;
+}
+.box3 ul li{
+    list-style: none;
+}
+
+.box4 ul{
+    margin-right: 250px;
+}
+.box4 ul li{
+    list-style: none;
+}
+/* doubt  */
+.line{
+    border: 1px solid black;
+    width: 100%;
+    position: relative;
+    top: 2300px;
+}
+.social{
+    width: 100%;
+    background-color: aqua;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.social-icon {
+    position: absolute;
+bottom: -2250px;
+left: 150px;
+
+}
+.social-icon2{
+    position: absolute;
+    top: 2200px;
+}
+.condition{
+    position: relative;
+    top: 2350px;
+    display: flex;
+    left: 150px;
+}
+.condition ul{
+    display: flex;
+    gap: 20px;
+}
+.condition ul li{
+    list-style: none;
+}
+.bottom2{
+    padding-left: 550px;
+    width: 1500px;
+    display: flex;
+
+}
+.bottom2 ul li{
+    display: flex;
+}
+.bottom2 li{
+    margin-left: 35px;
+}
+.bottom2 img{
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+
+}
+.bottom3 ul {
+    display: flex;
+    position: relative;
+    top: 2400px;
+    list-style: none;
+    width: 100%;
+    left: 150px;
+    gap: 50px;
+}
+
+</style>
+</head>
+<body>
+<!-- all in one code -->
+    <div class="allin">
+
+
+
+    <div class="container">
+        <div class="logo">
+            <img src="mc.png" alt="">
+        </div>
+        <div class="container2">
+        <div class="left">
+            <select name="drop" id="lang">
+                <option value="langauge">langauge</option>
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+            </select>
+            <a href="#">Sign up for Email</a>
+            <a href="#">Careers</a>
+        
+        
+        
+        </div>
+        <div class="right">
+        <div class="righ">
+            <img src="search.png" alt="">
+            <div class="para1">
+                <a href="#">search</a>
+        
+            </div>
+        </div>
+        
+        <div class="rig">
+            <img src="download.png" alt="">
+            <div class="para">
+        
+                <a href="#">Change your location for Email</a>
+            </div>
+        </div>
+        
+        <div class="ri">
+            <a href="www.google.com"><button type="button">Order</button></a>
+        </div>
+        </div>
+        
+        <div class="bottom">
+        <div class="botto">
+            <select name="drop" id="menu">
+                <option value="langauge">Our menu</option>
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+            </select>
+            <a href="download.html">Download App</a>
+            <a href="#">My Mcdonald's Review </a>
+            <a href="#">Exclusive Reward</a>
+            <a href="#">About Our Food</a>
+            <a href="#">Locate</a>
+            <a href="#">Gift Card</a>
+        
+        
+        
+        </div>
+        </div>
+        
+    </div>
+    </div>
+
+        <div class="mid">
+            <h2>MyMcDonald's Rewards</h2>
+            <p>Download the app and join MyMcDonald’s Rewards to earn bonus points on your McDonald’s orders—then, start getting fave after fave for free.*
+                
+            </p>
+            <p class="par">*At participating McDonald’s. Refer to MyMcDonald’s Program Terms for details. Must opt in to Rewards.
+                
+        </p>
+        </div>
+        
+        <div class="container3">
+
+            <div class="bug">
+                <img src="burger.jpg" alt="burger">
+            </div>
+            <div class="head">
+                <h1>Free Big Mac®. One for the Price of None.
+                </h1>
+                <p>With $1 minimum purchase, score a free Big Mac after downloading the McD's app and joining MyMcDonald's Rewards.* Plus, with MyMcDonald’s Rewards, you’ll earn points to redeem for free food on every eligible order. Another Big Mac, maybe? </p>
+                <p class="par2"><small>*Offer valid 1x thru the last day of the month for first time app users at participating McDonald's. May take up to 48 hours to appear in your deals. Must opt in to MyMcDonald’s Rewards. Excludes tax.
+                </small></p>
+                <button class="submit" type="submit">Get Free Big Mac</button>
+            </div>
+                
+            
+        </div>
+
+<!-- BURGER 2 -->
+<div class="contanier5">
+
+    <div class="bug2">
+        <img src="https://s7d1.scene7.com/is/image/mcdonalds/1PUB_DigitalExperience_McDelivery:1-column-desktop?resmode=sharp2" alt="">
+        
+    </div>
+        <div class="bug2-text">
+            <h3>Score Free Food with McDelivery®
+            </h3>
+            <p>Earn MyMcDonald’s Rewards points on every McDelivery order only in the McD’s app to redeem for free food. And, yup, you can get ‘em delivered, too. Just order, relax and enjoy— <a href="#">check out how easy ordering delivery is in the app.</a>
+            </p>
+            <div class="para3">
+                <p><small>* *At participating McDonald's. Must be opted into MyMcDonald's Rewards. McDelivery prices may be higher than at restaurants. Delivery/other fees may apply.</small></p>
+            </div>
+            <button>Earn  point on MC Delivery</button>
+
+        </div>
+</div>
+     
+    
+
+    <!-- burger3 -->
+    <div class="container6">
+<div class="bug3-image">
+    <img src="https://s7d1.scene7.com/is/image/mcdonalds/1PUB_ROA_2336x1040v24:1-column-desktop?resmode=sharp2" alt="">
+</div>
+
+<div class="bug3-text">
+    <h3>New: Faster Faves, Only in the App
+    </h3>
+    <p>We now prep when you’re on the way if you choose Curbside, Front Counter—or dine in for Table Service. Just order ahead in the app to save time. Because waiting in line for faves? Not our thing either.*</p>
+    <div class="para4">
+        <p>   <small> *At participating McDonald’s.</small>
+        </p>
+
+</div>
+
+<button>Open Ahead in the App</button>
+</div>
+
+</div>
+
+
+    <!-- buger4 -->
+    <div class="container7">
+        <div class="bug4-image">
+            <img src="https://s7d1.scene7.com/is/image/mcdonalds/1PUB_PaypalVenmo_v2_2236x1040v24:1-column-desktop?resmode=sharp2" alt="">
+        </div>
+        <div class="bug4-text">
+            <h2>More Ways to Pay for Faves
+            </h2>
+            <p>Get faves fast with Mobile Order & Pay* in the app. Use your preferred debit or credit card, Apple Pay, Google Pay™, PayPal or Venmo. 
+            </p>
+            <div class="para5">
+                <p><small>                *McDonald’s app download and registration required. Mobile Order & Pay available at participating McDonald’s.
+                </small></p>
+                <button>Open in App</button>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!-- APP google  -->
+    <div class="fingertips">
+        <div class="fingertips-image">
+            <img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/images/AppPromo_DownloadApp_475x360.jpg" alt="">
+        </div>
+        <div class="finger-tips-text">
+            <h2>Deliciousness At Your Fingertips
+            </h2>
+            <p>Download the app for exclusive deals and easy ordering.
+                
+            </p>
+            <div class="fingertips-icon">
+                <img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/nfl/logo/app_store_badge.png" alt="">
+                <img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/images/google_play_badge.png" alt="">
+                
+                
+                
+            </div>
+        </div>
+        
+    </div>
+
+</div>
+
+    <!-- deal and more things -->
+    <div class="deal">
+        <div class="deal-head">
+            <h1>Deals and Much More
+            </h1>
+            <p><small>With the McDonald’s app, you’ll get access to exclusive deals. Use the app to order ahead and pass the line with Mobile Order & Pay plus join MyMcDonald’s Rewards to <br>earn points on every order to redeem for free McDonald's.
+
+            </small></p>
+
+        </div>
+
+    </div>
+    
+</div>
+
+
+</div>
+
+<div class="footer">
+    <div class="box">
+        <h2>About us</h2>
+        <ul>
+            <li>About Us Overview</li>
+            <li>Leadership Team</li>
+            <li>Value in Action</li>
+            <li>Franchise Info</li>
+            <li>Recalls & Alerts</li>
+            <li>Real Estate</li>
+            <li>Accessibility</li>
+            <li>Investor Relations</li>
+            <li>News & Notifications</li>
+        </ul>
+    </div>
+    <div class="box2">
+        <h2>Services</h2>
+        <ul>
+            <li>About Us Overview</li>
+            <li>Leadership Team</li>
+            <li>Value in Action</li>
+            <li>Franchise Info</li>
+            <li>Recalls & Alerts</li>
+            <li>Real Estate</li>
+            <li>Accessibility</li>
+            <li>Investor Relations</li>
+            <li>News & Notifications</li>
+        </ul>
+
+    </div>
+
+    <div class="box3">
+        <h2>Community</h2>
+        <ul>
+            <li>About Us Overview</li>
+            <li>Leadership Team</li>
+            <li>Value in Action</li>
+            <li>Franchise Info</li>
+            <li>Recalls & Alerts</li>
+            <li>Real Estate</li>
+            <li>Accessibility</li>
+            <li>Investor Relations</li>
+            <li>News & Notifications</li>
+        </ul>
+
+    </div>
+    <div class="box4">
+        <h2>Contact Us</h2>
+        <ul>
+            <li>About Us Overview</li>
+            <li>Leadership Team</li>
+            <li>Value in Action</li>
+            <li>Franchise Info</li>
+            <li>Recalls & Alerts</li>
+            <li>Real Estate</li>
+            <li>Accessibility</li>
+            <li>Investor Relations</li>
+            <li>News & Notifications</li>
+        </ul>
+
+    </div>
+
+
+
+</div>
+<div class="social">
+
+    <div class="social-icon">
+        <img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/facebook.png" alt="">
+        <img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/x.png" alt="">
+    <img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/youtube.png" alt="">
+    <img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/instagram.png" alt="">
+    <img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/tumblr.png" alt="">
+    <img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/spotify.png" alt="">
+</div>
+<div class="social-icon2">
+    <img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/logo/app_store_badge.png" alt="">
+    <img src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/logo/google_play_badge.png" alt="">
+</div>
+</div>
+<div class="line">
+    
+</div>
+
+<!-- line ke baad -->
+<div class="condition">
+    <ul>
+        <li>Privacy(Updated)</li>
+        <li>California Privacy Notice</li>
+        <li>Term & Conditions</li>
+        <li>Accessibility</li>
+
+        <ul class="bottom2">
+            <li><img src="mc.png" alt="mc donlad logo"></li>
+            <li>&#169 2017-2024 McDonald’s.All Rights <br> &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Reserved</li>
+        </ul>
+
+    </ul>
+</div>
+    <div class="bottom3">
+        <ul>
+            <li>Do Not Sell or Share My Personal Information</li>
+            <li>Cookies Settings</li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+</div> 
+</body>
+</html>
